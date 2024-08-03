@@ -1,0 +1,245 @@
+body{
+    background-color: whitesmoke;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+.header{
+    font-size: 20px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    color: gray;
+}
+.logo{
+    margin-left:70px ;
+    padding-top: 20px;
+}
+.links{
+    text-decoration: none;
+    color: black;
+}
+.links:hover{
+    opacity: 0.6;
+}
+.ul__items{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    margin-left: 100px;
+}
+#colored{
+    color:#bf9b30;
+}
+li{
+  list-style: none;
+}
+#drop__list a{
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20% 20% 20% ;
+    padding: 10px;
+}
+#drop__list{
+    color: black;
+    text-decoration: none;
+    display: none;
+    border-bottom: 1px solid darkgray;
+    
+
+}
+#drop__list:hover{
+    border-bottom: 1px solid #bf9b30;
+}
+#drop__ul:hover #drop__list{
+    display: grid;
+    position: relative;
+    background-color: #1f1f1f;
+    top:30px;
+    padding: 20px;
+    color: darkgray;
+
+}
+.drop__list{
+    position: absolute;
+    
+}
+
+.head__img{
+    width:100%;
+    height:250px;
+    background-image:url(baked.jpg);
+    background-size:1700px 600px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    image-rendering:pixelated;
+    
+}
+.our__str{
+    padding: 60px;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 40% 50%;
+    grid-gap:5px;
+}
+.str__img{
+    width: 400px;
+    height: 90vh;
+}
+h3{
+    text-align: left;
+    font-family: arial;
+    color:  #bf9b30;
+    font-size: 25px;
+    padding-bottom:30px ;
+}
+p{
+    text-align: left;
+    font-family: arial;
+    font-size: 23px;
+    color: gray;
+}
+.str__nr{
+    width: 100%;
+    height: 85vh;
+    background-color: #1f1f1f;
+    display: grid;
+    grid-template-rows: 23% 20% 40% 35%;
+}
+h4{
+    text-align: center;
+    font-family: arial;
+    color: darkgray;
+    padding-top: 50px;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+}
+ .nr__p{
+     text-align: left;
+    color:gray;
+    padding:0px 400px 0px 400px;
+    font-size: 20px;
+    font-family: arial;
+    line-height: 33px;
+}
+.btn{
+    border: 1px solid  #bf9b30;
+    border-radius: 5px;
+    color:white;
+    justify-self: center;
+    text-decoration: none;
+    width: 200px;
+    height: 50px;
+    
+}
+#btn{
+    color:  #bf9b30;
+    font-family: arial;
+    font-size: 15px;
+    margin-left: 17px;
+}
+.offr{
+    text-align: center;
+    padding: 50px;
+    color: #bf9b30;
+}
+.str__ex{
+    text-align: center;
+    padding: 40px;
+    color: black;
+}
+.img__ex{
+    display:grid ;
+    grid-template-columns: 30% 30% 30%;
+    margin-left: 100px;
+    grid-gap:30px;
+}
+.ex__1{
+    
+}
+.img-ex__1{
+    width: 350px;
+    height:350px;
+}
+.ex__head{
+    text-align: center;
+    padding: 25px;
+    color: black;
+}
+.ex__txt{
+    text-align: center;
+    color: gray;
+    line-height: 35px;
+    font-size: 20px;
+}
+.blk{
+    width: 100%;
+    height: 75vh;
+    margin-top: 100px;
+    background-color: #1f1f1f;
+    display: grid;
+    grid-template-rows: 23% 20% 40%  35%;
+}
+.nr__p-2{ 
+    text-align: center;
+    color:gray;
+    padding:0px 400px 0px 400px;
+    font-size: 20px;
+    font-family: arial;
+    line-height: 33px;
+}
+#btn__2{
+    color: #bf9b30;
+    font-family: arial;
+    font-size: 20px;
+    justify-items: center;
+    margin: 10px 0px 0px 33px;
+}
+
+.rvws{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-gap:35px;
+    margin-left: 150px;
+}
+.stz{
+    width: 150px;
+    height: 50px;
+}
+.ex__head-1{
+    text-align: left;
+    padding: 25px;
+    padding-left: 0px;
+    color: black;
+}
+.names{
+    color: black;
+    text-align: left;
+}
+.ex__txt-2{
+    text-align: left;
+    color: gray;
+    line-height: 35px;
+    font-size: 20px;
+}
+.footer{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.p__f{
+    color:gray ;
+margin-left: 150px;
+}
+.icons{
+    width: 50px;
+    height: 50px;
+    float: right;
+}
+.icons:hover{
+    opacity: 0.9;
+}
